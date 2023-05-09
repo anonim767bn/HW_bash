@@ -8,9 +8,9 @@ jobs:
     - uses: actions/checkout@v2
     - name: Тест check.sh
       run: |
-        chmod +x check.sh
-        ./check.sh
+        chmod +x test_check.sh
+        ./test_check.sh
     - name: Тест write.sh
       run: |
-        chmod +x write.sh
-        ./write.sh
+        chmod +x test_write.sh
+        ./test_write.sh
